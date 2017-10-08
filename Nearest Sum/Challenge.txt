@@ -1,0 +1,8 @@
+Given a list of positive integers and an interger N, return the indices of the contiguous substring of the list whose constituents sum
+closest to N. If multiple pairs of indices meet these criteria, return the one with the lowest starting index. If there are still ties,
+return the one with the lowest ending index.
+
+Return the indices as a tuple in the form (lower index, higher index). In order to return the single element, just use the elements index
+twice.
+
+For example, if you are given the list: [3,4,5,6,7] and N=14, the code should return (1,3)
