@@ -1,0 +1,17 @@
+Given a triangle on a two dimensional plane.
+Output the integral point inside or on the boundaries of the triangle which has minimum sum of distances from the three vertices.
+
+Input: Coordinates (float number upto 3 decimal places) of three vertices are inputted as the x, y coordinate so that the three vertices
+are p1 = (x1,y1), p2 = (x2,y2), p3 = (x3,y3).
+
+Output: A list/array with the integer coordinates [x,y] which the point has the minimum sum of distances from the three vertices.
+        If there are no valid points, output [None, None]
+        If there are multiple answers output the one with the largest x-coordinate.
+        If there are still multiple answers output the one with the largest y-coordinate.
+        
+Sample Input:
+x1 = 0.0, y1 = 0.0, x2 = 1.0, y2 = 0.0, x3 = 1.0, y3 = 1.0
+
+Sample Output:
+[1,0], point inside or on the boundry of the triangle, where the sum of distances from the three vertices is minimum (equal to 2 in the 
+example).
